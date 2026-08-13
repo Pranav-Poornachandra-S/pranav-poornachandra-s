@@ -55,7 +55,7 @@ I am an aspiring Purple Teamer driven by a dual-perspective approach: understand
 
 ## Featured Security Projects
 
-### [Active Directory Incident Response & Threat Hunting Lab](https://github.com/Pranav-Poornachandra-S/active-directory-incident-response)
+### [Active Directory Incident Response](https://github.com/Pranav-Poornachandra-S/active-directory-incident-response)
 * **Tech Stack:** `Active Directory` `Splunk Enterprise` `Sysmon` `Atomic Red Team` `Linux`
 * Implemented an enterprise Active Directory domain (adir.local) with Windows Server 2022, Windows 10 endpoints and Sysmon event collection.
 * Simulated RDP password spraying via Crowbar and automated local account persistence using Atomic Red Team (T1136.001).
@@ -82,7 +82,7 @@ I am an aspiring Purple Teamer driven by a dual-perspective approach: understand
 * Includes defensive file validation to prevent script execution failures.
 
 ### [OpenSSL Password Generator](https://github.com/Pranav-Poornachandra-S/password-generator-bash)
-* **Tech Stack:** `Bash` `OpenSSL` `GNU Utilities`
+* **Tech Stack:** `Bash` `OpenSSL` `Linux`
 * Command-line password generator leveraging cryptographically secure random number generator (CSRNG) for cryptographic entropy.
 * Validates length parameters and generates 5 high-entropy password options per run.
 
