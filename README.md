@@ -16,6 +16,7 @@ I am an aspiring Purple Teamer driven by a dual-perspective approach: understand
 
 ### Security Operations & Detection Engineering (SIEM / SOAR / EDR)
 ![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-0089D6?style=flat&logo=microsoftazure&logoColor=white)
+![Splunk Enterprise](https://img.shields.io/badge/Splunk_Enterprise-000000?style=flat&logo=splunk&logoColor=white)
 ![ELK Stack](https://img.shields.io/badge/ELK_Stack-005571?style=flat&logo=elastic&logoColor=white)
 ![LimaCharlie](https://img.shields.io/badge/LimaCharlie_EDR-blue?style=flat&logo=shield)
 ![Tines](https://img.shields.io/badge/Tines_SOAR-purple?style=flat)
@@ -44,6 +45,7 @@ I am an aspiring Purple Teamer driven by a dual-perspective approach: understand
 
 | Technical Skill | Primary Application | Featured Repository |
 | :--- | :--- | :--- |
+| **Active Directory & Threat Hunting** | Simulating RDP brute-force, local account creation & querying telemetry via Splunk SPL. | [`active-directory-incident-response`](https://github.com/Pranav-Poornachandra-S/active-directory-incident-response) |
 | **Detection Engineering, SOAR & EDR** | Custom YAML D&R rules for `LaZagne` execution & host telemetry. Automated Slack/Email alerts with interactive network isolation prompts. | [`soar-edr-incident-response`](https://github.com/Pranav-Poornachandra-S/soar-edr-incident-response) |
 | **Web Application Pentesting** | Exploiting SQLi, Broken Access Control, DOM XSS on OWASP Juice Shop. | [`owasp-juice-shop-security-assessment`](https://github.com/Pranav-Poornachandra-S/owasp-juice-shop-security-assessment) |
 | **Applied Cryptography & Web Security** | Byte-level AES-256-CFB file encryption and short-lived buffer cleanup in Flask. | [`secure-file-sharing-flask-aes`](https://github.com/Pranav-Poornachandra-S/secure-file-sharing-flask-aes) |
@@ -52,6 +54,12 @@ I am an aspiring Purple Teamer driven by a dual-perspective approach: understand
 ---
 
 ## Featured Security Projects
+
+#### [Active Directory Incident Response & Threat Hunting Lab](https://github.com/Pranav-Poornachandra-S/active-directory-incident-response)
+* **Tech Stack:** `Active Directory`, `Splunk Enterprise`, `Sysmon`, `Atomic Red Team`, `Linux`
+* Implemented an enterprise Active Directory domain (`adir.local`) with Windows Server 2022, Windows 10 endpoints and Sysmon event collection.
+* Simulated RDP password spraying via **Crowbar** and automated local account persistence using **Atomic Red Team** (T1136.001).
+* Configured **Splunk Enterprise** & Splunk Universal Forwarders to write targeted SPL queries for detecting brute-force and unauthorized user account creation.
 
 ### [SOAR EDR Incident Response](https://github.com/Pranav-Poornachandra-S/soar-edr-incident-response)
 * **Tech Stack:** `LimaCharlie EDR` `Tines SOAR` `YAML` `Slack API`
