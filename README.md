@@ -56,15 +56,15 @@ I am an aspiring Purple Teamer driven by a dual-perspective approach: understand
 ## Featured Security Projects
 
 #### [Active Directory Incident Response & Threat Hunting Lab](https://github.com/Pranav-Poornachandra-S/active-directory-incident-response)
-* **Tech Stack:** `Active Directory`, `Splunk Enterprise`, `Sysmon`, `Atomic Red Team`, `Linux`
-* Implemented an enterprise Active Directory domain (`adir.local`) with Windows Server 2022, Windows 10 endpoints and Sysmon event collection.
-* Simulated RDP password spraying via **Crowbar** and automated local account persistence using **Atomic Red Team** (T1136.001).
-* Configured **Splunk Enterprise** & Splunk Universal Forwarders to write targeted SPL queries for detecting brute-force and unauthorized user account creation.
+* **Tech Stack:** `Active Directory` `Splunk Enterprise` `Sysmon` `Atomic Red Team` `Linux`
+* Implemented an enterprise Active Directory domain (adir.local) with Windows Server 2022, Windows 10 endpoints and Sysmon event collection.
+* Simulated RDP password spraying via Crowbar and automated local account persistence using Atomic Red Team (T1136.001).
+* Configured Splunk Enterprise & Splunk Universal Forwarders to write targeted SPL queries for detecting brute-force and unauthorized user account creation.
 
 ### [SOAR EDR Incident Response](https://github.com/Pranav-Poornachandra-S/soar-edr-incident-response)
 * **Tech Stack:** `LimaCharlie EDR` `Tines SOAR` `YAML` `Slack API`
 * Built an automated incident response pipeline connecting LimaCharlie EDR to Tines SOAR.
-* Authored custom Detection & Response (D&R) rules to identify credential harvesting (`LaZagne.exe`) and automated one-click host network isolation via Slack prompts.
+* Authored custom Detection & Response (D&R) rules to identify credential harvesting (LaZagne.exe) and automated one-click host network isolation via Slack prompts.
 
 ### [OWASP Juice Shop Security Assessment](https://github.com/Pranav-Poornachandra-S/owasp-juice-shop-security-assessment)
 * **Tech Stack:** `Burp Suite` `Gray Box Pentesting` `OWASP Top 10`
