@@ -46,7 +46,7 @@ I am an aspiring Purple Teamer driven by a dual-perspective approach: understand
 | Technical Skill | Primary Application | Featured Repository |
 | :--- | :--- | :--- |
 | **Active Directory & Threat Hunting** | Simulating RDP brute-force, local account creation & querying telemetry via Splunk SPL. | [`active-directory-incident-response`](https://github.com/Pranav-Poornachandra-S/active-directory-incident-response) |
-| **Detection Engineering, SOAR & EDR** | Custom YAML D&R rules for `LaZagne` execution & host telemetry. Automated Slack/Email alerts with interactive network isolation prompts. | [`soar-edr-incident-response`](https://github.com/Pranav-Poornachandra-S/soar-edr-incident-response) |
+| **Detection Engineering, SOAR & EDR** | Custom YAML D&R rules for `LaZagne` execution & host telemetry. Automated Slack/Email alerts with interactive network isolation prompts. | [`soar-edr-security-automation`](https://github.com/Pranav-Poornachandra-S/soar-edr-security-automation) |
 | **Web Application Pentesting** | Exploiting SQLi, Broken Access Control, DOM XSS on OWASP Juice Shop. | [`owasp-juice-shop-security-assessment`](https://github.com/Pranav-Poornachandra-S/owasp-juice-shop-security-assessment) |
 | **Applied Cryptography & Web Security** | Byte-level AES-256-CFB file encryption and short-lived buffer cleanup in Flask. | [`secure-file-sharing-flask-aes`](https://github.com/Pranav-Poornachandra-S/secure-file-sharing-flask-aes) |
 | **Command-Line Security Utilities** | OpenSSL-backed random password generation and symmetric GPG file protection. | [`password-generator-bash`](https://github.com/Pranav-Poornachandra-S/password-generator-bash) <br> [`file-encryptor-decryptor-bash`](https://github.com/Pranav-Poornachandra-S/file-encryptor-decryptor-bash) </br> |
@@ -61,7 +61,7 @@ I am an aspiring Purple Teamer driven by a dual-perspective approach: understand
 * Simulated RDP password spraying via Crowbar and automated local account persistence using Atomic Red Team (T1136.001).
 * Configured Splunk Enterprise & Splunk Universal Forwarders to write targeted SPL queries for detecting brute-force and unauthorized user account creation.
 
-### [SOAR EDR Incident Response](https://github.com/Pranav-Poornachandra-S/soar-edr-incident-response)
+### [SOAR EDR Security Automation](https://github.com/Pranav-Poornachandra-S/soar-edr-security-automation)
 * **Tech Stack:** `LimaCharlie EDR` `Tines SOAR` `YAML` `Slack API`
 * Built an automated incident response pipeline connecting LimaCharlie EDR to Tines SOAR.
 * Authored custom Detection & Response (D&R) rules to identify credential harvesting (LaZagne.exe) and automated one-click host network isolation via Slack prompts.
